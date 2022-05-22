@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/app_background_color"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.tab5.Tab5Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:textColor="@color/text_color"
+        android:layout_height="wrap_content"
+        android:text="tab5" />
+
+    <Switch
+        android:id="@+id/darkModeSwitch"
+        android:layout_width="wrap_content"
+        android:textColor="@color/text_color"
+        android:layout_height="wrap_content"
+        android:text="dark mode" />
+
+</LinearLayout>

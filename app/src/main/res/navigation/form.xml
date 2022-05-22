@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/form"
+    app:startDestination="@id/tab3Fragment">
+
+    <fragment
+        android:id="@+id/tab3Fragment"
+        android:name="firat.gurgur.codebase.ui.tab3.Tab3Fragment"
+        android:label="fragment_tab3"
+        tools:layout="@layout/fragment_tab3" >
+        <action
+            android:id="@+id/action_tab3Fragment_to_tab3Child1Fragment"
+            app:destination="@id/tab3Child1Fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/tab3Child1Fragment"
+        android:name="firat.gurgur.codebase.ui.tab3.Tab3Child1Fragment"
+        android:label="fragment_tab3_child1"
+        tools:layout="@layout/fragment_tab3_child1" />
+</navigation>
